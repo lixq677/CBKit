@@ -1,0 +1,29 @@
+{
+  "name": "CBKit",
+  "version": "0.0.1",
+  "summary": "A short description of CBKit.",
+  "description": "1.管理APP生命周期\n2.管理消息中线，URL总线和服务总线",
+  "homepage": "https://github.com/xiaoqingmail/CBKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "李笑清": "xiaoqingmail@sina.cn"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "git@github.com:xiaoqingmail/CBKit.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "CBKit/*.{h,m}",
+  "exclude_files": "Classes/Exclude",
+  "subspecs": [
+    {
+      "name": "LifeCycle",
+      "source_files": "CBKit/LifeCycle/*.{h,m}"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+PODS:
+  - CBKit (0.0.1):
+    - CBKit/LifeCycle (= 0.0.1)
+  - CBKit/LifeCycle (0.0.1)
+
+DEPENDENCIES:
+  - CBKit (from `../`)
+
+EXTERNAL SOURCES:
+  CBKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CBKit: 7f02e5c88425bcab8659f8b19b6fb17680750e9c
+
+PODFILE CHECKSUM: 64c8969dfa2c441cdab724713f8c0537cd73217e
+
+COCOAPODS: 1.9.3
