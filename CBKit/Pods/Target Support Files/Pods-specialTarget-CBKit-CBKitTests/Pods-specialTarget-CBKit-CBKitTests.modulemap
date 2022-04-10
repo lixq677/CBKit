@@ -1,0 +1,6 @@
+framework module Pods_specialTarget_CBKit_CBKitTests {
+  umbrella header "Pods-specialTarget-CBKit-CBKitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

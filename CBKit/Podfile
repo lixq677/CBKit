@@ -1,0 +1,37 @@
+# Uncomment the next line to define a global platform for your project
+
+source "http://git.bngrp.com/bn-ios/bnspecs/bnspec.git"
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+ platform :ios, '9.0'
+
+abstract_target 'specialTarget' do
+	pod 'MGJRouter'
+
+	target 'CBKit' do
+  	# Comment the next line if you don't want to use dynamic frameworks
+ 	 use_frameworks!
+	 # Pods for CBKit
+
+  		target 'CBKitTests' do
+    		# Pods for testing
+  		end
+	end
+
+	target 'CBDemo' do
+  	# Comment the next line if you don't want to use dynamic frameworks
+  	use_frameworks!
+
+  	# Pods for CBDemo
+		pod 'LXToolsKit'
+
+  		target 'CBDemoTests' do
+    		# Pods for testing
+  		end
+	end
+
+end
+
+
+

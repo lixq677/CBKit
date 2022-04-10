@@ -1,0 +1,26 @@
+PODS:
+  - LXToolsKit (1.0.0):
+    - SVProgressHUD
+  - MGJRouter (0.10.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - LXToolsKit
+  - MGJRouter
+
+SPEC REPOS:
+  http://git.bngrp.com/bn-ios/bnspecs/bnspec.git:
+    - LXToolsKit
+  https://github.com/CocoaPods/Specs.git:
+    - SVProgressHUD
+  trunk:
+    - MGJRouter
+
+SPEC CHECKSUMS:
+  LXToolsKit: d75bb0b072b57a3f32741ae6af9ba20acf32d50d
+  MGJRouter: 15d94541eb2cc81eff7d577337288feb7ae9575f
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 10d434b8b8d92246c14f16de90c31c7e99bf1332
+
+COCOAPODS: 1.9.3

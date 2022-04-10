@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-specialTarget-CBDemo-CBDemoTests/Pods-specialTarget-CBDemo-CBDemoTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/MGJRouter-framework/MGJRouter.framework
+${BUILT_PRODUCTS_DIR}/LXToolsKit/LXToolsKit.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
